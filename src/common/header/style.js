@@ -6,7 +6,6 @@ export const HeaderWrapper=styled.div`
   height: 58px;
   border-bottom: 1px solid #f0f0f0;
   `
-
 export const Logo = styled.a`
   display: inline-block;
   height:58px;
@@ -27,7 +26,6 @@ export const Nav = styled.div`
    height: 100%;
    vertical-align: top;
 `
-
 export const NavItem = styled.div`
    line-height: 56px;
    padding: 0 15px;
@@ -48,7 +46,7 @@ export const NavItem = styled.div`
 export const SearchWrapper= styled.div`
   position:relative;
   float:left;
-  .iconfont{
+  .zoom{
     position:absolute;
     right:5px;
     bottom:5px;
@@ -92,6 +90,51 @@ export const Navsearch = styled.input.attrs({placeholder:'search'})`
     &.slide-exit-active{
        width:160px;
      }
+`
+
+export const SearchInfo = styled.div`
+     position: absolute;
+     left:0;
+     top:50px;
+     width: 240px;
+     padding:0 20px;
+     margin-top: 10px;
+     box-shadow: 0 0 8px rgba(0,0,0,.2);
+     background:white;
+`
+
+export const SearchInfoTitle = styled.div`
+     margin-top:20px;
+     margin-bottom:20px;
+     line-height:20px;
+     font-size:14px;
+     color:#969696
+`
+
+export const SearchInfoSwitch = styled.span`
+     float: right;
+     font-size: 13px;
+     .spin{
+       display:block;
+       float:left;
+       font-size: 12px;
+       margin-right:2px;
+       transition: all 0.3s ;
+       transform-origin:center center;
+     }
+`
+
+export const SearchInfoItem = styled.a`
+     display : block;
+     float : left;
+     line-height: 20px;
+     padding : 0 5px ;
+     margin-right: 10px;
+     margin-bottom:10px;
+     font-size: 12px;
+     color:#787878;
+     border: 1px solid #ddd;
+     border-radius:3px;
 `
 
 export const Addition = styled.div`
